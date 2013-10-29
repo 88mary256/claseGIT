@@ -1,0 +1,25 @@
+administrator@ubuntu12lts:~/Documents/sfood/fabric$ fab hello
+Hello world!
+
+Done.
+administrator@ubuntu12lts:~/Documents/sfood/fabric$ fab host_type
+No hosts found. Please specify (single) host string for connection: localhost
+[localhost] run: uname -s
+
+Fatal error: Low level socket error connecting to host localhost: Connection refused
+
+Aborting.
+administrator@ubuntu12lts:~/Documents/sfood/fabric$ 
+root@ubuntu12lts:/home/administrator/Documents/sfood/fabric# fab -H localhost host_type
+[localhost] Executing task 'host_type'
+[localhost] run: uname -s
+
+Fatal error: Low level socket error connecting to host localhost: Connection refused
+
+Aborting.
+root@ubuntu12lts:/home/administrator/Documents/sfood/fabric# fab hello
+Hello world!
+
+Done.
+root@ubuntu12lts:/home/administrator/Documents/sfood/fabric# 
+
