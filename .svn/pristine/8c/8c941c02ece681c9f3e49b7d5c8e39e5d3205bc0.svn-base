@@ -1,0 +1,46 @@
+administrator@ubuntu12lts:~$ pip --version
+The program 'pip' is currently not installed.  You can install it by typing:
+sudo apt-get install python-pip
+administrator@ubuntu12lts:~$ sudo apt-get install python-pip
+[sudo] password for administrator: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libcglib-java libplexus-velocity-java libsisu-ioc-java xchat-common libots0 libplexus-utils2-java libaether-java libaopalliance-java
+  abiword-common libantlr-java libservlet2.4-java libabiword-2.9 libwerken.xpath-java libdoxia-sitetools-java libloudmouth1-0
+  link-grammar-dictionaries-en libsexy2 libtidy-0.99-0 libplexus-cli-java libwv-1.2-4 libgdome2-0 giblib1 libcdi-api-java
+  libplexus-containers1.5-java libasync-http-client-java libmaven-plugin-tools-java libsisu-guice-java libcommons-validator-java
+  libcommons-collections-java libmaven-reporting-impl-java libatinject-jsr330-api-java libgdome2-cpp-smart0c2a
+  libgeronimo-interceptor-3.0-spec-java velocity libjtidy-java liblink-grammar4 libgtkmathview0c2a libplexus-classworlds2-java libguava-java
+  glassfish-javaee libnetty-java
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  python-setuptools
+The following NEW packages will be installed:
+  python-pip python-setuptools
+0 upgraded, 2 newly installed, 0 to remove and 528 not upgraded.
+Need to get 536 kB of archives.
+After this operation, 1,467 kB of additional disk space will be used.
+Do you want to continue [Y/n]? y
+Get:1 http://ch.archive.ubuntu.com/ubuntu/ precise/main python-setuptools all 0.6.24-1ubuntu1 [441 kB]
+Get:2 http://ch.archive.ubuntu.com/ubuntu/ precise/universe python-pip all 1.0-1build1 [95.1 kB]                                                  
+Fetched 536 kB in 12s (43.4 kB/s)                                                                                                                 
+Selecting previously unselected package python-setuptools.
+(Reading database ... 202834 files and directories currently installed.)
+Unpacking python-setuptools (from .../python-setuptools_0.6.24-1ubuntu1_all.deb) ...
+Selecting previously unselected package python-pip.
+Unpacking python-pip (from .../python-pip_1.0-1build1_all.deb) ...
+Processing triggers for man-db ...
+Setting up python-setuptools (0.6.24-1ubuntu1) ...
+Setting up python-pip (1.0-1build1) ...
+W: Duplicate sources.list entry http://dl.google.com/linux/chrome/deb/ stable/main i386 Packages (/var/lib/apt/lists/dl.google.com_linux_chrome_deb_dists_stable_main_binary-i386_Packages)
+W: You may want to run apt-get update to correct these problems
+administrator@ubuntu12lts:~$  You may want to run apt-get update to correct these problems
+You: command not found
+administrator@ubuntu12lts:~$ apt-get update
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+administrator@ubuntu12lts:~$ 

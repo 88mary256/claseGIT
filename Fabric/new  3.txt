@@ -1,0 +1,33 @@
+Instalacion en linux
+1 deben tener python
+  el cual viene por defecto en linux
+  mi version es la 2.7.
+  para saber su version de python
+  $ python --version
+  Python 2.7.3
+
+2 instalar pip
+ $ sudo apt-get install pip
+ para saber su version de pip 
+ $ pip --version
+ pip 1.0
+
+ //pip le instala fabric y todas las dependencias necesarias
+3 instalar fabric
+ $ sudo pip install fabric
+ para saber su version de fabric
+ $ fab --version
+ Fabric 1.8.0
+
+¿esta realmente PyCrypto instalado?
+
+ * Para usuarios avanzados
+
+
+
+Para que la instalación de fabric tenga éxito, necesitará cuatro piezas principales de software:
+
+=2.5.x
+¿?
+
+libreria criptografica >=2.1

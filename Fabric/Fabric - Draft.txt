@@ -1,0 +1,30 @@
+-Installation:
+ Linux:
+$ sudo pip install fabric
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  $ pip install fabric (1.2.x)
+  * For advanced users:
+   $ pip install paramiko==dev
+   $ pip install fabric==dev
+-Dependencies:
+ In order for Fabric’s installation to succeed, you will need four primary pieces of software:
+ - The Python programming language (2.5 o 2.6).
+ //no! 2.4, no! 3.x
+ - The setuptools packaging/installation library.
+ - The Python paramiko SSH2 library.
+ - And paramiko‘s dependency, the PyCrypto cryptography library (>=2.1).
+ and, if using the parallel execution mode:
+ - The multiprocessing library.
+
+ 
+ pip <0.8.1
+ 
+ pip install -U pip
+ 
+ Upgrade to pip 0.8.1 or above
